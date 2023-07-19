@@ -158,3 +158,98 @@
 }
 
 /*---------------- gamer part end -----------*/
+/*---------------- online game part start -----------*/
+.online-game{
+    width: 1920px;
+    margin: 0 auto;
+    text-align: center;
+}
+.online-game-text{
+    /* text-align: center; */
+    margin-top: 120px;
+    margin-bottom: 48px;
+}
+
+
+.online-game-heading{
+    font-family: "Work Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #0B0223;
+}
+
+.funny-videos{
+    background: linear-gradient(#f948b2, #8758f1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.online-game-items{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 24px;
+    margin-left: 100px;
+}
+
+.online-game-para{
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+    margin-top: 16px;
+}
+
+.online-game-item-one{
+    width: 342px;
+    height: 484px;
+}
+
+.games-img{
+    opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.online-game-img-part{
+    position: relative;
+    width: 100%;
+}
+
+.online-game-img-part:hover .games-img{
+    opacity: 0.3;
+}
+
+.online-game-img-part:hover .img-inner-part{
+    opacity: 1;
+}
+
+.watch-text{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    color: #f948b2;
+}
+
+.img-inner-part{
+    transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.online-game-para{
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*---------------- online game part end -----------*/
