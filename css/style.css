@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.gamer-icone-text {
+  font-family: "Work Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #0b0223;
+}
+
+.nav-bar {
+  width: 1920px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: #3c354f;
+}
+
+.menu-item {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  list-style: none;
+}
+
+.menu-item li:hover{
+    background-color: rgba(11, 2, 35, 0.1);
+    padding: 17px 24px;
+    border-radius: 8px;
+}
+
+.menu-text-follow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 17px 24px;
+  border-radius: 8px;
+}
+
+/*---------------- banner part start -----------*/
+.banner-part{
+    width: 1920px;
+    height: 700px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.goat{
+    padding: 148px 240px;
+    background-image: url('/images/banner-bg.png');
+}
+
+.play-text {
+  font-family: "Work Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #0b0223;
+}
+
+.goat-text {
+  font-family: "Work Sans", sans-serif;
+  font-size: 96px;
+  font-weight: 800;
+  /* color: #F948B2; */
+  background: linear-gradient(#f948b2, #8758f1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.goat-downloae-section{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.goat-downloae-section li{
+    margin-top: 17px;
+    list-style: none;
+}
+
+.btn{
+    margin-top: 40px;
+}
+
+.banner-btn{
+    font-family: "Work Sans", sans-serif;
+    background-color: #f948b2;
+    padding: 21px 40px;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 24px;
+}
+
+.banner-btn:hover{
+    background-color: #4EC5F7;
+    transition: background-color 0.4s;
+    
+}
+/*---------------- banner part end -----------*/
+/*---------------- gamer part start -----------*/
+.gamer-part{
+    width: 1920px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.we-are-gamer{
+    font-family: "Work Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  /* color: #F948B2; */
+  background: linear-gradient(#f948b2, #8758f1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.gamer{
+    /* direction: rtl; */
+    direction:rtl;
+    padding: 96px 52px;
+    width: 520px;
+}
+
+.our-purpose{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+.unleash-game{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+/*---------------- gamer part end -----------*/
